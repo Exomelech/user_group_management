@@ -1,0 +1,50 @@
+.window {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.window__content {
+  background-color: $boxes_bg;
+  margin-top: 200px;
+  width: 450px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.window__close {
+  color: Black;
+  float: right;
+  &:hover {
+    color: cyan;
+    cursor: pointer;
+  }
+}
+
+.window__input {
+  width: 200px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+.window__group-error {
+  background-color: rgba(255, 0, 0, 0.562);
+  border-radius: 2px;
+  padding: 2px;
+  margin: 2px;
+  width: 196px;
+}
+
+.window__users-box {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}

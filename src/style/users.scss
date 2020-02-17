@@ -1,0 +1,70 @@
+.users__list-exp {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: $boxes_bg;
+  background-color: $color_background;
+  font-size: 20px;
+}
+
+.users__list-exp__fullname {
+  padding-left: 10px;
+  width: 30%;
+}
+.users__list-exp__email {
+  width: 30%;
+}
+.users__list-exp__id {
+  width: 10%;
+}
+.users__list-exp__actions {
+  width: 30%;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.users__list-item {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: $color_background;
+  background-color: $boxes_bg;
+  font-size: 18px;
+  padding: 2px;
+  border-bottom: 1px solid $boxes_bg_hover;
+}
+
+.users__item-fullname {
+  margin-right: 2px;
+  width: 30%;
+  height: 100%;
+  a {
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    color: $color_background;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-top: 8px;
+    background-color: $boxes_bg;
+    &:hover {
+      background-color: $boxes_bg_hover;
+    }
+  }
+}
+.users__item-email {
+  width: 30%;
+}
+.users__item-id {
+  width: 10%;
+}
+.users__item-actions {
+  width: 30%;
+  text-align: end;
+  padding-right: 10px;
+}

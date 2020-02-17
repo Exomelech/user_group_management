@@ -1,0 +1,21 @@
+$main_color: #6093cc;
+$main_color_hover: #527cac;
+$color_background: #292929; 
+$boxes_bg: #afc8c8;
+$boxes_bg_hover: #96afaf;
+
+html, body, #root{
+  background: $color_background;
+  height: 100%;
+}
+
+.app {
+  background-color: $main_color;
+  min-width: 800px;
+  max-width: 1020px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  color: $color_background
+}

@@ -1,0 +1,21 @@
+.list__header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid $color_background;
+}
+
+.list__header-controls {
+  width: 400px;
+}
+
+.list__search {
+  width: 400px;
+}
+
+.list__title-group {
+  width: 400px;
+  text-align: center;
+}

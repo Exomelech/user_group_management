@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid $color_background;
+}
+
+.nav__item a{
+  display: block;
+  text-decoration: none;
+  color: $color_background;
+  background-color: $boxes_bg;
+  transition: all 0.5s;
+  border-radius: 2px;
+  width: 70px;
+  text-align: center;
+  &:hover{
+    background-color: $boxes_bg_hover;
+  }
+}
