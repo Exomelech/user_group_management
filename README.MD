@@ -1,15 +1,5 @@
 # Courses and user managment system
 
-## Installation
-U can install npm modules to run webpack server in browser, for this install modules by typing:
-
-```
-npm i
-npm run start
-```
-
-Or, just simply open ``` bundle.html ``` in dist folder
-
 ## Tech-stack
 ReactJS - main tech\
 Redux - for providing data in to components and minimizing request to db ( in our case localStorage )\
