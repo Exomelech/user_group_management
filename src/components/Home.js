@@ -1,5 +1,5 @@
 export default () => (
   <div>
-    <h1>Welcome to the test SPA for Active Wizards Front-end vacancy</h1>
+    <h1>Welcome to the user-groups manager page!</h1>
   </div>
 );
